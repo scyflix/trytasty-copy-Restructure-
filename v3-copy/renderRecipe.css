@@ -10,6 +10,11 @@
   border: 2px solid #ffa500;
   border-radius: 12px;
   padding: 0 9px;
+  cursor: default;
+  transition: transform 0.5s ease;
+}
+.meta span:hover {
+  transform: scale(1.05);
 }
 p {
   margin: 0 22px 12px;
