@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe | TryTasty</title>
+    <link rel="stylesheet" href="../Recipe.css" />
+    <link rel="stylesheet" href="../general.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="sidebar.css">
+  </head>
+  <body>
+    <header>
+      <div style="display: flex; margin-left: 0" id="menuIconContainer">
+        <div
+          aria-label="Menu Icon"
+          arial-roledescription="icon"
+          class="menu-icon"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <a href="https://trytasty.de/">
+          <h1>TryTasty</h1>
+        </a>
+      </div>
+      <nav class="page-nav" id="sidebar">
+        <div class="upperNavContainer">
+          <!--USER PROFILE LINK-->
+        </div>
+        <div class="actionBtns">
+          <button id="dark-mode" aria-label="Dark Mode" onclick="darkMode()">
+            Light Mode
+          </button>
+          <a id="loginLink" href="v3-copy/login.html" ;> Login </a>
+        </div>
+        <a href="#" class="botLink" onclick="showPage('recipeBotForm')">
+          <span>Bot</span>
+        </a>
+      </nav>
+    </header>
+
+    <main id="recipe"></main>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const recipeId = params.get("id");
+
+      const recipeContainer = document.getElementById("recipe");
+
+      if (!recipeId) {
+        recipeContainer.innerHTML = "<p>Recipe not found.</p>";
+      }
+
+      fetch("data/recipes.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const recipe = data.recipes.find((r) => r.id === recipeId);
+
+          const recipeSchema = {
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": recipe.title,
+  "description": recipe.description,
+  "image": [recipe.image],
+  "author": {
+    "@type": "Organization",
+    "name": "TryTasty"
+  },
+  "prepTime": recipe.prepTime,
+  "cookTime": recipe.cookTime,
+  "recipeYield": recipe.servings,
+  "recipeIngredient": recipe.ingredients,
+  "recipeInstructions": recipe.steps.map(step => ({
+    "@type": "HowToStep",
+    "text": step
+  }))
+};
+
+const script = document.createElement("script");
+script.type = "application/ld+json";
+script.textContent = JSON.stringify(recipeSchema);
+document.head.appendChild(script);
+
+
+          if (!recipe) {
+            recipeContainer.innerHTML = "<p>Recipe not found.</p>";
+            return;
+          }
+
+          document.title = `${recipe.title} | TryTasty`;
+
+          document.getElementById("recipe").innerHTML = `
+                  <a class="backBtn" href="../index.html">← Back</a>
+            <article>
+              <h1>${recipe.title}</h1>
+              <p>${recipe.description}</p>
+
+<img src="${recipe.image}" alt="${recipe.title}" loading="lazy" />
+
+              <section>
+                <h2>Ingredients</h2>
+                <ul>
+                  ${recipe.ingredients.map((i) => `<li>${i}</li>`).join("")}
+                </ul>
+              </section>
+
+              <section>
+                <h2>Instructions</h2>
+                <ol>
+                  ${recipe.steps.map((s) => `<li>${s}</li>`).join("")}
+                </ol>
+              </section>
+            </article>
+          `;
+        })
+        .catch(() => {
+          document.getElementById("recipe").innerHTML =
+            "<p>Failed to load recipe.</p>";
+        });
+    </script>
+    <script src="nav.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": "plantain-nachos",
+      "title": "Plantain Nachos",
+      "description": "Crispy plantain nachos made with ripe plantains, melted cheese, and fresh toppings. A perfect snack or party appetizer with a savory crunch.",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/v1755801683/ChatGPT-Image-May-3_-2025_-10_59_04-AM-_1__1_wqzd2y_11zon_xxu4kl.avif",
+      "ingredients": [
+        "2 ripe plantains",
+        "1 tbsp olive oil",
+        "Salt",
+        "Shredded cheese",
+        "Diced tomatoes, onions, and jalapeños",
+        "Sour cream or yogurt for topping"
+      ],
+      "steps": [
+        "Slice the plantains thinly and toss with olive oil and salt.",
+        "Bake at 180°C (350°F) for 15–20 minutes until crispy.",
+        "Remove from oven and top with shredded cheese and diced toppings.",
+        "Bake for 5 more minutes until the cheese melts.",
+        "Serve warm with a dollop of sour cream or yogurt."
+      ],
+      "prepTime": "PT10M",
+      "cookTime": "PT20M",
+      "servings": "2 servings"
+    }
+  ]
+}
