@@ -1,0 +1,175 @@
+import {
+  googleLogin,
+  signup,
+  login,
+  logout,
+  onUserAuthChange,
+} from "./../v3-copy/js/auth.js";
+
+const logoutBtn = document.getElementById("logoutBtn");
+const welcomeText = document.getElementById("welcomeText");
+const popup = document.getElementById("popup");
+const loginInputForm = document.getElementById("loginInputForm");
+const nonUserMessage = document.getElementById("non-userMessage");
+const recipeForm = document.getElementById("recipeSubmissionForm");
+const loginBtn = document.getElementById("loginBtn");
+const signupBtn = document.getElementById("signupBtn");
+const videosPage = document.getElementById("videosPage");
+const userName = document.getElementById("userName");
+const Useremail = document.getElementById("Useremail");
+const loginLink = document.getElementById("loginLink");
+const googleBtn = document.querySelectorAll(".google-btn");
+const infoNoteLogin = document.querySelector(".infoNoteLogin");
+
+//Authstatechanged(loggedin)
+function loggedIn(user) {
+  welcomeText &&
+    (welcomeText.textContent =
+      "Name:" + " " + user.displayName || "Name:" + " " + user.email || "User");
+
+  Useremail && (Useremail.textContent = user.email || "-");
+
+  userName &&
+    (userName.textContent = user.displayName.slice(0, 5) + "..." || "Profile");
+
+  logoutBtn && (logoutBtn.style.display = "block");
+  loginLink && (loginLink.style.display = "none");
+  popup && (popup.style.display = "none");
+  loginInputForm && (loginInputForm.style.display = "none");
+  nonUserMessage && (nonUserMessage.style.display = "none");
+  recipeForm && (recipeForm.style.display = "block");
+  videosPage && (videosPage.style.display = "block");
+}
+
+//authstatechanged(loggedout)
+function loggedout() {
+  logoutBtn && (logoutBtn.style.display = "none");
+  Useremail && (Useremail.innerText = "Login first");
+  userName && (userName.innerText = "Login first");
+  loginLink && (loginLink.innerText = "Login");
+  loginLink && (loginLink.style.display = "block");
+  popup && (popup.style.display = "block");
+  nonUserMessage && (nonUserMessage.style.display = "block");
+  recipeForm && (recipeForm.style.display = "none");
+  welcomeText && (welcomeText.innerText = "");
+  loginInputForm && (loginInputForm.style.display = "block");
+  videosPage && (videosPage.style.display = "none");
+}
+
+// Listen for auth state changes
+onUserAuthChange((user) => {
+  if (user) {
+    loggedIn(user);
+  } else {
+    loggedout();
+  }
+});
+
+window.googleLogin = async () => {
+  try {
+    const result = await googleLogin();
+    window.location.href = "submit.html";
+    alert(`Welcome, ${result.user.displayName}`);
+  } catch (e) {
+    alert(e.message);
+  }
+};
+
+googleBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    googleLogin();
+  });
+});
+
+if (signupBtn) {
+  // Signup
+  signupBtn.addEventListener("click", async () => {
+    const userNameInputValue = document.getElementById("userNameInput").value;
+    const email = document.getElementById("emailForSignup").value;
+    const password = document.getElementById("passwordForSignup").value;
+    const confirmPassword = document.getElementById(
+      "re-enterPasswordForSignup"
+    ).value;
+    const infoNoteSignup = document.querySelector(".infoNoteSignup");
+
+    if (!userNameInputValue || !password || !confirmPassword) {
+      infoNoteSignup.classList.add("errorShow");
+      infoNoteSignup.textContent = "Please fill all forms.";
+      return;
+    }
+    if (!email.includes("@")) {
+      infoNoteSignup.classList.add("errorShow");
+      infoNoteSignup.textContent = "Please input a valid email address";
+      return;
+    }
+    if (password !== confirmPassword) {
+      infoNoteSignup.classList.add("errorShow");
+      infoNoteSignup.textContent = "Passwords do not match.";
+      return;
+    }
+
+    try {
+      const user = await signup(userNameInputValue, email, password);
+
+      const userName = document.getElementById("userName");
+      if (userName) userName.innerText = user.displayName;
+
+      alert("Signup successful!");
+      window.location.href = "../index.html";
+    } catch (error) {
+      infoNoteSignup.classList.add("errorShow");
+
+      infoNoteSignup.textContent = error.message;
+    }
+  });
+}
+
+if (loginBtn) {
+  // Login
+  loginBtn.addEventListener("click", async () => {
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    if (!email || !password) {
+      infoNoteLogin.textContent = "Email and password are required";
+      return;
+    }
+    try {
+      await login(email, password);
+      alert("Login successful!");
+      window.location.href = "../index.html";
+    } catch (error) {
+      infoNoteLogin.classList.add("errorShow");
+
+      if (error.message === "Firebase: Error (auth/invalid-credential)") {
+        infoNoteLogin.textContent =
+          "The credential is malformed or expired. Try google signin";
+      } else if (
+        error.message === "Firebase: Error (auth/too-many-requests)."
+      ) {
+        infoNoteLogin.textContent = "Too many requests. Try again later";
+      } else if (error.message === "Firebase: Error (auth/user-not-found).") {
+        infoNoteLogin.textContent = "No user exists with this email.";
+      } else if (
+        error.message === "Firebase: Error (auth/invalid-credential)."
+      ) {
+        infoNoteLogin.textContent =
+          "Wrong input. User signed-up with google or user has no account.";
+      } else {
+        infoNoteLogin.textContent = error.message;
+      }
+    }
+  });
+}
+
+if (logoutBtn) {
+  // Logout
+  logoutBtn.addEventListener("click", async () => {
+    try {
+      await logout();
+      alert("Logged out successfully!");
+      window.location.href = "https://trytasty.de/v3/welcome.html";
+    } catch (error) {
+      alert(error.message);
+    }
+  });
+}
