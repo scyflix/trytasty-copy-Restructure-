@@ -1,0 +1,25 @@
+.meta {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-evenly;
+  gap: 12px;
+}
+.meta span {
+  font-size: 16px;
+  border: 2px solid #ffa500;
+  border-radius: 12px;
+  padding: 0 9px;
+}
+p {
+  margin: 0 22px 12px;
+}
+ul,
+ol {
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+ul li,
+ol li {
+  margin-bottom: 6px;
+}
