@@ -4,7 +4,8 @@ const recipeId = params.get("id");
 const recipeContainer = document.getElementById("recipe");
 
 if (!recipeId) {
-  recipeContainer.innerHTML = "<p>Recipe not found.</p>";
+  recipeContainer.innerHTML = `<a class="backBtn" href="../index.html">← Back</a>
+  <p style="text-align: center; opacity: 0.3;">Recipe not found.</p>`;
 }
 
 fetch("data/recipes.json")
@@ -18,6 +19,7 @@ fetch("data/recipes.json")
       name: recipe.title,
       description: recipe.description,
       image: [recipe.image],
+      url: window.location.href,
       author: {
         "@type": "Organization",
         name: "TryTasty",
@@ -39,7 +41,8 @@ fetch("data/recipes.json")
     document.head.appendChild(script);
 
     if (!recipe) {
-      recipeContainer.innerHTML = "<p>Recipe not found.</p>";
+      recipeContainer.innerHTML = `<a class="backBtn" href="../index.html">← Back</a>
+  <p>Recipe not found.</p>`;
       return;
     }
 
@@ -77,6 +80,8 @@ fetch("data/recipes.json")
           `;
   })
   .catch(() => {
-    document.getElementById("recipe").innerHTML =
-      "<p>Failed to load recipe.</p>";
+    document.getElementById(
+      "recipe"
+    ).innerHTML = `<a class="backBtn" href="../index.html">← Back</a>
+  <p style="text-align: center; opacity: 0.3;">Failed to load recipe.</p>`;
   });
