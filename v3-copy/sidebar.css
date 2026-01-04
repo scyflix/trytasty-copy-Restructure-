@@ -111,14 +111,15 @@ span {
   color: var(--span);
   font-size: 24px;
   font-weight: 600;
+  background: linear-gradient(#5656564b 0 0) left/0 100% no-repeat;
 }
 
 .page-nav a:hover {
+  background-size: 100% 100%;
   text-decoration: none;
   border: 2px solid orange;
   transform: scale(1.02);
   border-radius: 10px;
-  background: rgba(40, 40, 40, 0.2);
 }
 
 .page-nav p {
