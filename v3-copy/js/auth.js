@@ -20,7 +20,7 @@ export async function googleLogin() {
   const result = await signInWithPopup(auth, provider);
   // Automatically add password provider if missing
   const email = result.user.email;
-  // You can generate a random password or ask user later
+
   const autoPassword = crypto.randomUUID().slice(0, 12);
   try {
     const credential = EmailAuthProvider.credential(email, autoPassword);

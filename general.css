@@ -21,6 +21,9 @@
   --filter: blur(60px) brightness(60%);
   --active-color: #ffff00;
   --icon-color: #ffffff;
+  --toast-color-success: green;
+  --toast-color-error: red;
+  --toast-bg: #676666;
 }
 body.lightMode {
   --bg: #ebe9e5e8;
@@ -34,6 +37,7 @@ body.lightMode {
   --infoNote-color: #fff3cd;
   --filter: blur(60px) brightness(60%);
   --active-color: #ff4500;
+  --toast-bg: #c5c5c5;
 }
 html,
 body {
@@ -95,6 +99,35 @@ main {
   background-color: var(--main-bg);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+}
+#toast {
+  visibility: hidden; /* Hidden by default */
+  min-width: 250px;
+  margin: 0 auto;
+  background-color: var(--toast-bg);
+  color: var(--toast-color-success);
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+/* Show the toast */
+#toast.show {
+  visibility: visible;
+  opacity: 1;
+}
+#toast.error {
+  visibility: visible;
+  opacity: 1;
+  color: rgb(255, 38, 0);
 }
 .infoNote a {
   text-decoration: underline;
