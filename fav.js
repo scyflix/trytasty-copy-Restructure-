@@ -35,10 +35,10 @@ favclass.forEach((fav) => {
       // Toast notification
       const toast = document.getElementById("toast");
       toast.style.color = "red";
-      toast.textContent = "recipe not saved";
-      toast.className = "show";
+      toast.textContent = "Error! recipe not saved or recipe already exist.";
+      toast.className = "error";
       setTimeout(
-        () => (toast.className = toast.className.replace("show", "")),
+        () => (toast.className = toast.className.replace("error", "")),
         3000
       );
     }

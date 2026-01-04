@@ -216,6 +216,60 @@
       "metaPrepTime": "PT7M",
       "metaCookTime": "PT10M",
       "metaServings": "3 servings"
-    }
+    },
+
+    {
+       "id": "nutty-date-energy-rocks",
+       "title": "Nutty Date Energy Rocks",
+       "description": " l. A perfect snack or party appetizer with a savory crunch.",
+       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/Energie_Steine_aus_Datteln_und_N%C3%BCssen_1_lqm8ah.avif",
+       "prepTime": 1,
+       "cookTime": 1,
+       "totalTime": 1,
+       "servings": 1,
+       "ingredients": [
+         "Pitted date",
+         "Roast peanuts",
+         "Rolled oats",
+         "Honey",
+         "Cocoa powder"
+       ],
+       "steps": [
+         "Blend all ingredients into a sticky dough.",
+         "Roll into small rock-shaped balls.",
+         "Chill and serve as an energy-packed snack."
+         
+       ],
+       "metaPrepTime": "",
+       "metaCookTime": "",
+       "metaServings": ""
+     },
+
+     {
+       "id": "",
+       "title": "",
+       "description": " made with ripe plantain, dark chocolate and chili powder. A perfect snack or party appetizer with a savory crunch.",
+       "image": "",
+       "prepTime": 1,
+       "cookTime": 1,
+       "totalTime": 1,
+       "servings": 1,
+       "ingredients": [
+         "",
+         "",
+         "",
+         ""
+       ],
+       "steps": [
+         "",
+         "",
+         "",
+         ""
+       ],
+       "metaPrepTime": "",
+       "metaCookTime": "",
+       "metaServings": ""
+     }
+
   ]
 }
