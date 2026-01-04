@@ -80,6 +80,142 @@
       "metaPrepTime": "PT22M",
       "metaCookTime": "PT16M",
       "metaServings": "1 servings"
+    },
+
+    {
+      "id": "instant-ramen-tacos",
+      "title": "Instant Ramen Taco",
+      "description": "Instant Ramen Taco made with instant noodles, egg, lettuce and shredded cheese. Perfect for breakfast and tasty snacks.",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/ChatGPT_Image_May_15_2025_03_20_52_PM_1_pq2efs.avif",
+      "prepTime": 6,
+      "cookTime": 15,
+      "totalTime": 21,
+      "servings": 1,
+      "ingredients": [
+        "1 pack of instant noodles",
+        "1 eggs",
+        "Oil for frying",
+        "Lettuce, shredded chicken, spicy mayo(for filling)"
+      ],
+      "steps": [
+        "Cook noodles slightly, then mix with beaten egg.",
+        "Shape into small taco shells using foil molds.",
+        "Fry until crispy and golden.",
+        "Fill with your choice of toppings."
+      ],
+      "metaPrepTime": "PT6M",
+      "metaCookTime": "PT15M",
+      "metaServings": "1 servings"
+    },
+
+    {
+      "id": "spicy-corn-and-coconut-bites",
+      "title": "Spicy Corn & Coconut Bites",
+      "description": "Spicy Corn & Coconut Bites made with Sweet corn, Grated coconut, Lime juice and Chili flakes. Perfect for instant and tasty snacks.",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/Spicy_Corn_and_Coconut_Bites_1_ql2cvh.avif",
+      "prepTime": 10,
+      "cookTime": 0,
+      "totalTime": 10,
+      "servings": 2,
+      "ingredients": [
+        "Sweet corn",
+        "Grated coconut",
+        "Chili flakes",
+        "Lime juice",
+        "Salt"
+      ],
+      "steps": [
+        "Mix corn, cocnut, chili flakes, and salt in a bowl.",
+        "Squeeze lime juice into the mixture and mix.",
+        "Form the mixture into small balls and chili for 10min before serving."
+      ],
+      "metaPrepTime": "PT10M",
+      "metaCookTime": "PT0M",
+      "metaServings": "2 servings"
+    },
+
+    {
+      "id": "plantain-cinnamon-rolls",
+      "title": "Plantain Cinnamon Rolls",
+      "description": "Plantain Cinnamon Rolls made with ripe plantain, ground cinnamon and butter. Perfect for appetizers.",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/Plantain_Cinnamon_Rolls_on_Ceramic_Plate_1_lb4rgi.avif",
+      "prepTime": 13,
+      "cookTime": 3,
+      "totalTime": 16,
+      "servings": 2,
+      "ingredients": [
+        "2 ripe plantains",
+        "1 tsp ground cinnamon",
+        "2 tsp butter or margarine",
+        "Toothpicks or skewers (optional)"
+      ],
+      "steps": [
+        "Peel the plantain and slice it lengthwise into very thin, flat strips.",
+        "Lightly bake the strips in a little butter for 3 minutes until soft and flexible (not crispy).",
+        "Mix sugar (or honey) with cinnamon in a small bowl.",
+        "Spread a thin layer of the cinnamon mix over each warm plantain strip.",
+        "Gently roll each strip like a cinnamon roll and secure with a toothpick(s) or skewer(s) if needed.",
+        "Let cool slightly and enjoy warm!"
+      ],
+      "metaPrepTime": "PT13M",
+      "metaCookTime": "PT3M",
+      "metaServings": "2 servings"
+    },
+
+    {
+      "id": "plantain-egg-cups",
+      "title": "Plantain Egg Cups",
+      "description": "Plantain Egg Cups made with ripe plantain, egg and salt. Perfect for breakfast.",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416739/Plantain_Egg_Cups_1_jo9uqx.avif",
+      "prepTime": 18,
+      "cookTime": 15,
+      "totalTime": 33,
+      "servings": 3,
+      "ingredients": [
+        "2 ripe plantains",
+        "2 eggs",
+        "A pinch of salt",
+        "A pinch of pepper",
+        "Oil for greasing"
+      ],
+      "steps": [
+        "Preheat your oven for 10 minutes to 180°C (350°F).",
+        "Slice the plantain into thin rounds.",
+        "Lightly grease muffin cups with oil and press the plantain slices into the bottom to form a base.",
+        "Crack an egg into each muffin cup over the plantain base.",
+        "Sprinkle a pinch of salt and pepper on each.",
+        "Bake for 12–15 minutes, or until the eggs are set to your liking.",
+        "Let them cool slightly before carefully removing from the muffin tin."
+      ],
+      "metaPrepTime": "PT18M",
+      "metaCookTime": "PT15M",
+      "metaServings": "2 servings"
+    },
+
+    {
+      "id": "choco-chili-banana-chips",
+      "title": "Choco Chili Banana Chips",
+      "description": "Choco Chili Banana Chips made with ripe plantain, dark chocolate and chili powder. A perfect snack or party appetizer with a savory crunch.",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/Choco_Chili_Banana_Chips_Delight_1_z8nxnl.avif",
+      "prepTime": 7,
+      "cookTime": 10,
+      "totalTime": 17,
+      "servings": 3,
+      "ingredients": [
+        "2 ripe plantains",
+        "Melted dark chocolate",
+        "Pinch of chili powder",
+        "Salt"
+      ],
+      "steps": [
+        "Thinly slice plantains and bake or fry until crisp.",
+        "Dip half side of the baked(or fried) plantain in melted chocolate.",
+        "Sprinkle with chili powder and salt.",
+        "Let it set and enjoy."
+      ],
+      "metaPrepTime": "PT7M",
+      "metaCookTime": "PT10M",
+      "metaServings": "3 servings"
     }
   ]
 }

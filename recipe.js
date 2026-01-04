@@ -187,12 +187,5 @@ if (recipeSubmissionBtn) {
     RecipeForm.submit();
   });
 
-  const clearCountBtn = document.getElementById("clearCountBtn");
-  if (clearCountBtn) {
-    clearCountBtn.addEventListener("click", () => {
-      localStorage.removeItem("savedCount");
-      count = 0;
-      submittedCount.innerText = 0;
-    });
-  }
+
 }

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>404 | TryTasty</title>
+<style>
+      * {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  color: #c66a09;
+}
+
+.pot {
+  position: relative;
+  width: 180px;
+  height: 140px;
+  margin: 0 auto 30px;
+}
+
+/* Pot body */
+.body {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background: #ff8c42;
+  border-radius: 0 0 30px 30px;
+}
+
+/* Lid */
+.lid {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  height: 18px;
+  background: #e06d2f;
+  border-radius: 20px;
+  animation: lidBounce 2s ease-in-out infinite;
+}
+
+/* Handles */
+.handle {
+  position: absolute;
+  top: 55px;
+  width: 35px;
+  height: 18px;
+  border: 4px solid #ff8c42;
+  border-radius: 20px;
+}
+
+.handle.left {
+  left: -30px;
+}
+
+.handle.right {
+  right: -30px;
+}
+
+/* Steam */
+.steam {
+  position: absolute;
+  top: 0;
+  width: 12px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  animation: steam 2.5s infinite ease-in-out;
+}
+
+.s1 { left: 40px; animation-delay: 0s; }
+.s2 { left: 80px; animation-delay: 0.5s; }
+.s3 { left: 120px; animation-delay: 1s; }
+
+@keyframes steam {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-40px) scale(1.2);
+  }
+}
+
+@keyframes lidBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+p {
+  margin: 10px 0 20px;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  background: #ff8c42;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+a:hover {
+  background: #e06d2f;
+}
+
+</style></head>
+<body>
+  <div class="container">
+    <div class="pot">
+      <div class="steam s1"></div>
+      <div class="steam s2"></div>
+      <div class="steam s3"></div>
+      <div class="lid"></div>
+      <div class="body"></div>
+      <div class="handle left"></div>
+      <div class="handle right"></div>
+    </div>
+
+    <h1>404</h1>
+    <p>Oops… this recipe is still cooking 🍲</p>
+    <a href="index.html">Back to kitchen</a>
+  </div>
+</body>
+</html>

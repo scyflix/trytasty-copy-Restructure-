@@ -76,6 +76,13 @@ fetch("data/recipes.json")
                   ${recipe.steps.map((s) => `<li>${s}</li>`).join("")}
                 </ol>
               </section>
+              <button
+            class="add-fav"
+            data-key="${recipe.id}"
+            data-name="${recipe.title}"
+          >
+            Add to favs
+          </button>
             </article>
           `;
   })

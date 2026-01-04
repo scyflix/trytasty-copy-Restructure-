@@ -23,15 +23,25 @@ favclass.forEach((fav) => {
 
       // update UI number
       if (favCount) favCount.innerText = favrecipes.length;
-    }
 
-    // Toast notification
-    const toast = document.getElementById("toast");
-    toast.className = "show";
-    setTimeout(
-      () => (toast.className = toast.className.replace("show", "")),
-      3000
-    );
+      // Toast notification
+      const toast = document.getElementById("toast");
+      toast.className = "show";
+      setTimeout(
+        () => (toast.className = toast.className.replace("show", "")),
+        3000
+      );
+    } else {
+      // Toast notification
+      const toast = document.getElementById("toast");
+      toast.style.color = "red";
+      toast.textContent = "recipe not saved";
+      toast.className = "show";
+      setTimeout(
+        () => (toast.className = toast.className.replace("show", "")),
+        3000
+      );
+    }
   });
 });
 
@@ -39,21 +49,29 @@ favclass.forEach((fav) => {
 const favsection = document.getElementById("favs");
 const clearFavs = document.getElementById("clearFavs");
 if (favrecipes.length === 0) {
-  if(favsection) {
-    favsection.innerHTML = "<h2 class=infoNote>You don`t have a favorite yet😓</h2>";
+  if (favsection) {
+    favsection.innerHTML =
+      "<h2 class=infoNote>You don`t have a favorite yet😓</h2>";
     clearFavs.style.display = "none";
   }
 } else {
-  if(clearFavs) {
+  if (clearFavs) {
     clearFavs.style.display = "block";
   }
   favrecipes.forEach((recipe) => {
     const a = document.createElement("a");
-    a.href = `../index.html?recipe=${recipe.key}`; // link stays on page
-    a.textContent = recipe.name + ","; // recipe name
-    a.className = "fav-link"; // optional CSS class
-    a.onclick = () => showPage(recipe.key); // show the recipe
-    if(favsection) {
+
+    const recipeKey = recipe.key || recipe.id; // whatever your real key is
+
+    a.href = `recipe.html?id=${recipeKey}`;
+    a.textContent = recipe.name + ",";
+    a.className = "fav-link";
+
+    a.onclick = () => {
+      window.location.href = `recipe.html?id=${recipeKey}`;
+    };
+
+    if (favsection) {
       favsection.appendChild(a);
     }
   });
