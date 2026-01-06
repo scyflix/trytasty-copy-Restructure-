@@ -5,10 +5,11 @@
       "title": "Plantain Nachos",
       "description": "Crispy plantain nachos made with ripe plantains, melted cheese, and fresh toppings. A perfect snack or party appetizer with a savory crunch.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/v1755801683/ChatGPT-Image-May-3_-2025_-10_59_04-AM-_1__1_wqzd2y_11zon_xxu4kl.avif",
-      "prepTime": 10,
-      "cookTime": 15,
-      "totalTime": 25,
+
+      "prepTimeMin": 10,
+      "cookTimeMin": 25,
       "servings": 2,
+
       "ingredients": [
         "2 ripe plantains",
         "1 tbsp olive oil",
@@ -19,14 +20,11 @@
       ],
       "steps": [
         "Slice the plantains thinly and toss with olive oil and salt.",
-        "Bake at 180°C (350°F) for 15–20 minutes until crispy.",
+        "Bake at 180°C (350°F) for 20 minutes until crispy.",
         "Remove from oven and top with shredded cheese and diced toppings.",
         "Bake for 5 more minutes until the cheese melts.",
         "Serve warm with a dollop of sour cream or yogurt."
-      ],
-      "metaPrepTime": "PT10M",
-      "metaCookTime": "PT20M",
-      "metaServings": "2 servings"
+      ]
     },
 
     {
@@ -34,10 +32,10 @@
       "title": "Spicy Peanut Butter Popcorn",
       "description": "Spicy Peanut Butter Popcorn made with popcorn, peanut butter and honey. Perfect for movie nights and small snacks.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416751/Spicy-Peanut-Butter-Popcorn-Delights-_1__1_svy6og.avif",
-      "prepTime": 4,
-      "cookTime": 10,
-      "totalTime": 14,
+      "prepTimeMin": 4,
+      "cookTimeMin": 10,
       "servings": 3,
+
       "ingredients": [
         "6 cups popcorn",
         "3 tbsp peanut butter",
@@ -49,10 +47,7 @@
         "Melt peanut butter, honey, and chili powder in a pot under low heat.",
         "Pour over already cooked popcorn and mix evenly.",
         "Let cool slightly before serving."
-      ],
-      "metaPrepTime": "PT4M",
-      "metaCookTime": "PT10M",
-      "metaServings": "3 servings"
+      ]
     },
 
     {
@@ -60,9 +55,9 @@
       "title": "Savory French Toast Sticks",
       "description": "Savory French Toast Sticks made with bread, eggs, milk and grated cheese. Perfect for breakfast.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/IMG_20250710_092333_1_glg6ik.avif",
-      "prepTime": 22,
-      "cookTime": 16,
-      "totalTime": 38,
+      "prepTimeMin": 22,
+      "cookTimeMin": 16,
+
       "servings": 1,
       "ingredients": [
         "4 slices of bread",
@@ -76,10 +71,7 @@
         "Whisk eggs with milk, cheese, salt, pepper, and chili.",
         "Dip sticks and fry until golden on each side.",
         "Serve warm with grated cheese sprickled on it."
-      ],
-      "metaPrepTime": "PT22M",
-      "metaCookTime": "PT16M",
-      "metaServings": "1 servings"
+      ]
     },
 
     {
@@ -87,13 +79,13 @@
       "title": "Instant Ramen Taco",
       "description": "Instant Ramen Taco made with instant noodles, egg, lettuce and shredded cheese. Perfect for breakfast and tasty snacks.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/ChatGPT_Image_May_15_2025_03_20_52_PM_1_pq2efs.avif",
-      "prepTime": 6,
-      "cookTime": 15,
-      "totalTime": 21,
+      "prepTimeMin": 6,
+      "cookTimeMin": 15,
+
       "servings": 1,
       "ingredients": [
         "1 pack of instant noodles",
-        "1 eggs",
+        "1 egg",
         "Oil for frying",
         "Lettuce, shredded chicken, spicy mayo(for filling)"
       ],
@@ -102,10 +94,7 @@
         "Shape into small taco shells using foil molds.",
         "Fry until crispy and golden.",
         "Fill with your choice of toppings."
-      ],
-      "metaPrepTime": "PT6M",
-      "metaCookTime": "PT15M",
-      "metaServings": "1 servings"
+      ]
     },
 
     {
@@ -113,9 +102,9 @@
       "title": "Spicy Corn & Coconut Bites",
       "description": "Spicy Corn & Coconut Bites made with Sweet corn, Grated coconut, Lime juice and Chili flakes. Perfect for instant and tasty snacks.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/Spicy_Corn_and_Coconut_Bites_1_ql2cvh.avif",
-      "prepTime": 10,
-      "cookTime": 0,
-      "totalTime": 10,
+      "prepTimeMin": 10,
+      "cookTimeMin": 0,
+
       "servings": 2,
       "ingredients": [
         "Sweet corn",
@@ -125,13 +114,10 @@
         "Salt"
       ],
       "steps": [
-        "Mix corn, cocnut, chili flakes, and salt in a bowl.",
+        "Mix corn, coconut, chili flakes, and salt in a bowl.",
         "Squeeze lime juice into the mixture and mix.",
-        "Form the mixture into small balls and chili for 10min before serving."
-      ],
-      "metaPrepTime": "PT10M",
-      "metaCookTime": "PT0M",
-      "metaServings": "2 servings"
+        "Form the mixture into small balls and chill for 10min before serving."
+      ]
     },
 
     {
@@ -139,9 +125,9 @@
       "title": "Plantain Cinnamon Rolls",
       "description": "Plantain Cinnamon Rolls made with ripe plantain, ground cinnamon and butter. Perfect for appetizers.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/Plantain_Cinnamon_Rolls_on_Ceramic_Plate_1_lb4rgi.avif",
-      "prepTime": 13,
-      "cookTime": 3,
-      "totalTime": 16,
+      "prepTimeMin": 13,
+      "cookTimeMin": 3,
+
       "servings": 2,
       "ingredients": [
         "2 ripe plantains",
@@ -156,10 +142,7 @@
         "Spread a thin layer of the cinnamon mix over each warm plantain strip.",
         "Gently roll each strip like a cinnamon roll and secure with a toothpick(s) or skewer(s) if needed.",
         "Let cool slightly and enjoy warm!"
-      ],
-      "metaPrepTime": "PT13M",
-      "metaCookTime": "PT3M",
-      "metaServings": "2 servings"
+      ]
     },
 
     {
@@ -167,9 +150,8 @@
       "title": "Plantain Egg Cups",
       "description": "Plantain Egg Cups made with ripe plantain, egg and salt. Perfect for breakfast.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416739/Plantain_Egg_Cups_1_jo9uqx.avif",
-      "prepTime": 18,
-      "cookTime": 15,
-      "totalTime": 33,
+      "prepTimeMin": 18,
+      "cookTimeMin": 15,
       "servings": 3,
       "ingredients": [
         "2 ripe plantains",
@@ -186,10 +168,7 @@
         "Sprinkle a pinch of salt and pepper on each.",
         "Bake for 12–15 minutes, or until the eggs are set to your liking.",
         "Let them cool slightly before carefully removing from the muffin tin."
-      ],
-      "metaPrepTime": "PT18M",
-      "metaCookTime": "PT15M",
-      "metaServings": "2 servings"
+      ]
     },
 
     {
@@ -197,9 +176,9 @@
       "title": "Choco Chili Banana Chips",
       "description": "Choco Chili Banana Chips made with ripe plantain, dark chocolate and chili powder. A perfect snack or party appetizer with a savory crunch.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/Choco_Chili_Banana_Chips_Delight_1_z8nxnl.avif",
-      "prepTime": 7,
-      "cookTime": 10,
-      "totalTime": 17,
+      "prepTimeMin": 7,
+      "cookTimeMin": 10,
+
       "servings": 3,
       "ingredients": [
         "2 ripe plantains",
@@ -212,10 +191,7 @@
         "Dip half side of the baked(or fried) plantain in melted chocolate.",
         "Sprinkle with chili powder and salt.",
         "Let it set and enjoy."
-      ],
-      "metaPrepTime": "PT7M",
-      "metaCookTime": "PT10M",
-      "metaServings": "3 servings"
+      ]
     },
 
     {
@@ -223,9 +199,9 @@
       "title": "Nutty Date Energy Rocks",
       "description": " Nutty Date Energy Rocks are perfect for a quick, natural energy boost before workouts or during busy days. They also make a healthy, guilt-free snack that satisfies sweet cravings without refined sugar.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/Energie_Steine_aus_Datteln_und_N%C3%BCssen_1_lqm8ah.avif",
-      "prepTime": 13,
-      "cookTime": 0,
-      "totalTime": 13,
+      "prepTimeMin": 13,
+      "cookTimeMin": 0,
+
       "servings": 1,
       "ingredients": [
         "Pitted date",
@@ -238,20 +214,17 @@
         "Blend all ingredients into a sticky dough.",
         "Roll into small rock-shaped balls.",
         "Chill and serve as an energy-packed snack."
-      ],
-      "metaPrepTime": "13",
-      "metaCookTime": "0",
-      "metaServings": "1"
+      ]
     },
 
     {
       "id": "sweet-potato-bites-with-yougurt-dip",
       "title": "sweet Potato Bites With Yogurt Dip",
-      "description": " ",
+      "description": "",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416750/ChatGPT-Image-May-3_-2025_-09_25_52-PM-_1__teaw4q.avif",
-      "prepTime": 12,
-      "cookTime": 20,
-      "totalTime": 32,
+      "prepTimeMin": 12,
+      "cookTimeMin": 20,
+
       "servings": 2,
       "ingredients": [
         "2 medium sweet potatoes",
@@ -265,10 +238,7 @@
         "Bake at 180°c(356°F) for 20 mins.",
         "Mix yogurt with a splash of lemon juice.",
         "Serve the yogurt as a dip with baked potatoes."
-      ],
-      "metaPrepTime": "12",
-      "metaCookTime": "20",
-      "metaServings": "2"
+      ]
     },
 
     {
@@ -276,10 +246,10 @@
       "title": "Cheesy Ramen Nests",
       "description": " ",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416751/ChatGPT-Image-May-3_-2025_-09_31_03-PM-_1__iaetf4.avif",
-      "prepTime": 2,
-      "cookTime": 10,
-      "totalTime": 12,
-      "servings": 1,
+      "prepTimeMin": 3,
+      "cookTimeMin": 12,
+
+      "servings": 3,
       "ingredients": [
         "1 packet instant noodles",
         "1 egg",
@@ -287,29 +257,45 @@
         "Black pepper "
       ],
       "steps": [
-        "Boil noodles without seasoning.",
+        "Boil noodles without seasoning for 2 minutes.",
         "Drain with a sieve and mix with egg ,cheese , and pepper.",
-        "Spoon into muffins tins and bake at 180°C for 10 mins until golden. "
+        "Spoon into muffins tins and bake at 180°C for 14 mins until golden. "
+      ]
+    },
+
+    {
+      "id": "banana-oat-energy-bites",
+      "title": "Banana Oat Energy Bites",
+      "description": "-",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416739/ChatGPT-Image-May-3_-2025_-09_33_00-PM-_1__j7giel.avif",
+      "prepTimeMin": 6,
+      "cookTimeMin": 0,
+      "servings": 1,
+      "ingredients": [
+        "1 ripe banana",
+        "1/2 cup oats",
+        "1 tbsp peanut butter",
+        "1 tbsp chocolate chips or raisins"
       ],
-      "metaPrepTime": "2",
-      "metaCookTime": "10",
-      "metaServings": "1"
+      "steps": [
+        "Mash banana and mix with oats, peanut butter, and chips.",
+        "Roll into small balls.",
+        "Chill for 30 minutes in fridge befor serving"
+      ]
     },
 
     {
       "id": "",
       "title": "",
-      "description": " ",
-      "image": "",
-      "prepTime": 1,
-      "cookTime": 1,
-      "totalTime": 1,
-      "servings": 1,
-      "ingredients": ["", "", "", ""],
-      "steps": ["", "", "", ""],
-      "metaPrepTime": "",
-      "metaCookTime": "",
-      "metaServings": ""
+      "description": "…",
+      "image": "…",
+
+      "prepTimeMin": 0,
+      "cookTimeMin": 0,
+      "servings": 0,
+
+      "ingredients": [],
+      "steps": []
     }
   ]
 }

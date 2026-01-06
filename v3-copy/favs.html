@@ -45,6 +45,20 @@
       }
       .fav-link a {
         margin-right: 20px;
+        color: white;
+      }
+      #body a {
+        transition: all 0.6s ease;
+        color: wheat;
+        margin: 5px;
+        text-decoration: underline;
+      }
+      #body a:hover {
+        opacity: 0.8;
+      }
+      #body a:hover::before {
+        content: "🧑🏽‍🍳Cook";
+        margin-right: 9px;
       }
     </style>
   </head>
@@ -65,26 +79,20 @@
           <span></span>
         </div>
         <a href="https://trytasty.de/">
-          <h1>
-            TryTasty
-          </h1>
+          <h1>TryTasty</h1>
         </a>
       </div>
       <nav class="page-nav" id="sidebar">
         <div class="upperNavContainer">
           <!--USER PROFILE LINK-->
-        
         </div>
         <div class="actionBtns">
           <button id="dark-mode" aria-label="Dark Mode" onclick="darkMode()">
             Light Mode
           </button>
-        
-          <a id="loginLink" href="login.html">
-            Logout
-          </a>
+
+          <a id="loginLink" href="login.html"> Logout </a>
         </div>
-       
       </nav>
     </header>
     <main id="body">
@@ -152,8 +160,7 @@
     </nav>
     <script type="module" src="main.js" defer></script>
     <script src="../recipe.js" defer></script>
-    <script src="../fav.js" defer></script>
-        <script src="nav.js"></script>
-
+    <script type="module" src="../fav.js" defer></script>
+    <script src="nav.js"></script>
   </body>
 </html>

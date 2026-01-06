@@ -22,8 +22,7 @@
   --active-color: #ffff00;
   --icon-color: #ffffff;
   --toast-color-success: green;
-  --toast-color-error: red;
-  --toast-bg: #676666;
+  --toast-color-error: #ff4500;
 }
 body.lightMode {
   --bg: #ebe9e5e8;
@@ -39,6 +38,7 @@ body.lightMode {
   --active-color: #ff4500;
   --toast-bg: #c5c5c5;
 }
+
 html,
 body {
   scroll-behavior: smooth;
@@ -104,7 +104,7 @@ main {
   visibility: hidden; /* Hidden by default */
   min-width: 250px;
   margin: 0 auto;
-  background-color: var(--toast-bg);
+  backdrop-filter: var(--filter);
   color: var(--toast-color-success);
   text-align: center;
   border-radius: 5px;
@@ -127,7 +127,7 @@ main {
 #toast.error {
   visibility: visible;
   opacity: 1;
-  color: rgb(255, 38, 0);
+  color: var(--toast-color-error);
 }
 .infoNote a {
   text-decoration: underline;
