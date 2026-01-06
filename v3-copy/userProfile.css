@@ -1,5 +1,9 @@
 main {
-      width: 90vw;
+  display: grid;
+grid-template-rows: 1fr 1fr;
+}
+#userDetails {
+  height: auto;
 }
 .userProfileContainer {
   display: flex;
@@ -23,4 +27,10 @@ main {
 .userProfileContainer span {
       font-size: 16px;
       color: rgb(255, 106, 0);
+}
+.redActions {
+  margin-top: auto;
+  width: 100%;
+  border-top: 2px solid red;
+  
 }
