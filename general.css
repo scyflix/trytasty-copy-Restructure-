@@ -31,7 +31,7 @@ body.lightMode {
   --header-bg: #ffd9a0;
   --header-color: #0d0d0d;
   --shadow: 0 2px 30px 2px rgba(0, 0, 0, 0.1);
-  --preloader-bg: linear-gradient(135deg, #807d7d, #363636);
+  --preloader-bg: linear-gradient(135deg, #807d7d, #f5f5dc);
   --infoNote-bg: #ff4500;
   --infoNote-color: #fff3cd;
   --filter: blur(60px) brightness(60%);
@@ -156,7 +156,7 @@ main {
   border-radius: calc(var(--radius) / 2);
 }
 .loadLine {
-  background: var(--infoNote-color);
+  background: #ff4500;
   height: 4px;
   width: 100px;
   animation: movingLine 0.9s alternate infinite;
