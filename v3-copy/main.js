@@ -65,6 +65,16 @@ onUserAuthChange((user) => {
   }
 });
 
+window.googleLogin = async () => {
+  try {
+    const result = await googleLogin();
+    window.location.href = "submit.html";
+    alert(`Welcome, ${result.user.displayName}`);
+  } catch (e) {
+    alert(e.message);
+  }
+};
+
 googleBtn.forEach((btn) => {
   btn.addEventListener("click", () => {
     googleLogin();
