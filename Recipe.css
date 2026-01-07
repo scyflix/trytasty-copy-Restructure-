@@ -32,14 +32,17 @@ body.lightMode main nav {
 
 a.backBtn {
   text-decoration: none;
-  border: 1px solid #e65c00;
   border-radius: 8px;
   background: var(--btn-bg);
   padding: 6px;
   color: var(--color);
+  transition: opacity 0.5s ease;
   font-size: clamp(1.3rem, 1.5rem, 1.5rem);
 }
-
+main#recipe a.backBtn:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
 #recipeBotForm {
   display: none;
 }

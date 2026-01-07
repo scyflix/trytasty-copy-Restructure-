@@ -1,6 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const recipeId = params.get("id");
 import { addToFav } from "../../fav.js";
+
 const recipeContainer = document.getElementById("recipe");
 
 if (!recipeId) {
