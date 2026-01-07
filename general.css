@@ -34,9 +34,8 @@ body.lightMode {
   --preloader-bg: linear-gradient(135deg, #807d7d, #f5f5dc);
   --infoNote-bg: #ff4500;
   --infoNote-color: #fff3cd;
-  --filter: blur(60px) brightness(60%);
+  --filter: blur(20px) brightness(90%);
   --active-color: #ff4500;
-  --toast-bg: #c5c5c5;
 }
 
 html,
@@ -78,9 +77,9 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  margin: 10px;
+  margin: 0 ;
   border-radius: var(--radius);
-  height: 40px;
+  height: 60px;
   max-height: 95px;
 }
 h1 {
@@ -325,8 +324,8 @@ footer {
   position: absolute;
   left: 40px;
   bottom: 30px;
-  background: #464646;
   padding: 0;
+  background: var(--bg);
   width: 0;
   height: 0;
   overflow: hidden;
@@ -364,7 +363,7 @@ footer {
   width: 50px;
   height: 50px;
   object-fit: contain;
-  background-color: var(--color);
+  background-color: var(--infoNote-bg);
 }
 #scybudApps img:hover {
   transform: scale(1.06);

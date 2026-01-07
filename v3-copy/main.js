@@ -28,10 +28,8 @@ function loggedIn(user) {
       "Name:" + " " + user.displayName || "Name:" + " " + user.email || "User");
 
   Useremail && (Useremail.textContent = user.email || "-");
-
   userName &&
     (userName.textContent = user.displayName.slice(0, 5) + "..." || "Profile");
-
   logoutBtn && (logoutBtn.style.display = "block");
   loginLink && (loginLink.style.display = "none");
   popup && (popup.style.display = "none");
@@ -45,7 +43,7 @@ function loggedIn(user) {
 function loggedout() {
   logoutBtn && (logoutBtn.style.display = "none");
   Useremail && (Useremail.innerText = "Login first");
-  userName && (userName.innerText = "Login first");
+  userName && (userName.innerText = "username");
   loginLink && (loginLink.innerText = "Login");
   loginLink && (loginLink.style.display = "block");
   popup && (popup.style.display = "block");
@@ -64,7 +62,6 @@ onUserAuthChange((user) => {
     loggedout();
   }
 });
-
 
 googleBtn.forEach((btn) => {
   btn.addEventListener("click", () => {
