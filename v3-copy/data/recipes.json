@@ -348,6 +348,145 @@
         "Bake at 180°C(360°F) for 15 minutes.",
         "Top with mashed avocado and chili flakes."
       ]
+    },
+
+    {
+      "id": "crispy-chickpea-snack",
+      "title": "Crispy Chickpea Snack",
+      "description": "…",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/Crispy_Chickpea_snack_1_okfeab.avif",
+
+      "prepTimeMin": 6,
+      "cookTimeMin": 30,
+      "servings": 2,
+
+      "ingredients": [
+        "1 can of chickpeas",
+        "Olive oil",
+        "Smoked paprika, garlic powder and salt",
+        "Salt and chili flakes"
+      ],
+      "steps": [
+        "Rinse and dry chickpeas.",
+        "Toss in a bowl with oil and spices.",
+        "Bake at 200°C (400°F) for 30 mins until crispy."
+      ]
+    },
+
+    {
+      "id": "peanut-butter-apple-nachos",
+      "title": "Peanut Butter Apple Nachos",
+      "description": "…",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755417445/IMG_20250806_150806_svoeqb_th0ev7.avif",
+
+      "prepTimeMin": 8,
+      "cookTimeMin": 0,
+      "servings": 1,
+
+      "ingredients": [
+        "1 Apple",
+        "1 tbsp peanut butter",
+        "Granola or crushed nuts",
+        "Chocolate drizzle(optional)"
+      ],
+      "steps": [
+        "Cut apples into thin slices.",
+        "Layer apple slices on a plate.",
+        "Melt peanut butter and drizzle it on the layered apples.",
+        "Add the chocolate drizzle as well and sprickle the granola or crushed nuts."
+      ]
+    },
+
+    {
+      "id": "mini-caprese-skewers",
+      "title": "Mini Caprese Skewers",
+      "description": "…",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416736/Mini_caprese_skewer_1_yiwcrc.avif",
+
+      "prepTimeMin": 10,
+      "cookTimeMin": 0,
+      "servings": 2,
+
+      "ingredients": [
+        "4 cherry tomatoes",
+        "4 mini mozzarella ball ",
+        "4  leaves of fresh basils"
+      ],
+      "steps": [
+        "Skewer one tomato, one mozarrella ,and a basil leaf onto toothpicks.",
+        "Season with black pepper or any season of your choice. "
+      ]
+    },
+
+    {
+      "id": "cheesy-mango-poppers",
+      "title": "Cheesy Mango Poppers",
+      "description": "…",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416736/ChatGPT_Image_May_15_2025_03_18_28_PM_1_zeq5x4.avif",
+
+      "prepTimeMin": 16,
+      "cookTimeMin": 0,
+      "servings": 2,
+
+      "ingredients": [
+        "Ripe mango ",
+        "Cream cheese ",
+        "Crushed nachos or cornflakes",
+        "Toothpicks"
+      ],
+      "steps": [
+        "Cut mango into cubes.",
+        "Freeze mango cubes for 30 minutes.",
+        "Wrap each cube with a thin layer of cream cheese. ",
+        "Roll in crushed nachos or cornflakes.",
+        "Serve chilled with toothpicks"
+      ]
+    },
+
+    {
+      "id": "garri-cookies",
+      "title": "Garri cookies",
+      "description": "…",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1756387907/ChatGPT_Image_Aug_28_2025_03_14_34_PM_11zon_l2hj8t.avif",
+
+      "prepTimeMin": 6,
+      "cookTimeMin": 15,
+      "servings": 2,
+
+      "ingredients": [
+        "1 cup of powdered garri",
+        "1/2 cup butter(margarine)",
+        "1/4 cup sugar"
+      ],
+      "steps": [
+        "In a bowl , cream the butter and sugar together until light and fluffy.",
+        "Add garri and mix well until it forms a soft dough. ",
+        "Roll into small balls , flatten slightly, and place on a greased baking tray.",
+        "Bake at 180°(350F) for about 15 minutes or unti golden brown.",
+        "Let them cool and enjoy!"
+      ]
+    },
+    {
+      "id": "rice-and-yougurt-bowl",
+      "title": "Rice & Yogurt Bowl",
+      "description": "…",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto:eco/v1757086463/jnqjc66srjc0k2zadz1l_nsnwwo.avif",
+
+      "prepTimeMin": 8,
+      "cookTimeMin": 0,
+      "servings": 1,
+
+      "ingredients": [
+        "1 cup cooked rice ",
+        "Cucumber",
+        "Mint and pinch of salt ",
+        "1/2 cup of plain yogurt"
+      ],
+      "steps": [
+        "Mix 1 cup cooled rice with plain yogurt.",
+        "Add chopped cucumber, mint, and a pinch of salt.",
+        "Light ,cooling and probiotic-rich."
+      ]
     }
   ]
 }
