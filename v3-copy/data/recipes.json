@@ -5,6 +5,7 @@
       "title": "Plantain Nachos",
       "description": "Crispy plantain nachos made with ripe plantains, melted cheese, and fresh toppings. A perfect snack or party appetizer with a savory crunch.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/v1755801683/ChatGPT-Image-May-3_-2025_-10_59_04-AM-_1__1_wqzd2y_11zon_xxu4kl.avif",
+      "dataKeywords": "plantains,plantain,tomatoe",
 
       "prepTimeMin": 10,
       "cookTimeMin": 25,
@@ -32,6 +33,8 @@
       "title": "Spicy Peanut Butter Popcorn",
       "description": "Spicy Peanut Butter Popcorn made with popcorn, peanut butter and honey. Perfect for movie nights and small snacks.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416751/Spicy-Peanut-Butter-Popcorn-Delights-_1__1_svy6og.avif",
+      "dataKeywords": "chili,peanut butter,popcorn",
+
       "prepTimeMin": 4,
       "cookTimeMin": 10,
       "servings": 3,
@@ -55,6 +58,8 @@
       "title": "Savory French Toast Sticks",
       "description": "Savory French Toast Sticks made with bread, eggs, milk and grated cheese. Perfect for breakfast.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/IMG_20250710_092333_1_glg6ik.avif",
+      "dataKeywords": "eggs,egg,milk,bread",
+
       "prepTimeMin": 22,
       "cookTimeMin": 16,
 
@@ -79,6 +84,8 @@
       "title": "Instant Ramen Taco",
       "description": "Instant Ramen Taco made with instant noodles, egg, lettuce and shredded cheese. Perfect for breakfast and tasty snacks.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/ChatGPT_Image_May_15_2025_03_20_52_PM_1_pq2efs.avif",
+      "dataKeywords": "egg,eggs,noodles,Lettuce,chicken",
+
       "prepTimeMin": 6,
       "cookTimeMin": 15,
 
@@ -102,6 +109,8 @@
       "title": "Spicy Corn & Coconut Bites",
       "description": "Spicy Corn & Coconut Bites made with Sweet corn, Grated coconut, Lime juice and Chili flakes. Perfect for instant and tasty snacks.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/Spicy_Corn_and_Coconut_Bites_1_ql2cvh.avif",
+      "dataKeywords": "corn,coconut,chili",
+
       "prepTimeMin": 10,
       "cookTimeMin": 0,
 
@@ -125,6 +134,8 @@
       "title": "Plantain Cinnamon Rolls",
       "description": "Plantain Cinnamon Rolls made with ripe plantain, ground cinnamon and butter. Perfect for appetizers.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/Plantain_Cinnamon_Rolls_on_Ceramic_Plate_1_lb4rgi.avif",
+      "dataKeywords": "plantains,plantain,cinnamon",
+
       "prepTimeMin": 13,
       "cookTimeMin": 3,
 
@@ -150,6 +161,8 @@
       "title": "Plantain Egg Cups",
       "description": "Plantain Egg Cups made with ripe plantain, egg and salt. Perfect for breakfast.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416739/Plantain_Egg_Cups_1_jo9uqx.avif",
+      "dataKeywords": "plantains,plantain,egg",
+
       "prepTimeMin": 18,
       "cookTimeMin": 15,
       "servings": 3,
@@ -176,6 +189,8 @@
       "title": "Choco Chili Banana Chips",
       "description": "Choco Chili Banana Chips made with ripe plantain, dark chocolate and chili powder. A perfect snack or party appetizer with a savory crunch.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/Choco_Chili_Banana_Chips_Delight_1_z8nxnl.avif",
+      "dataKeywords": "plantains,banana,chili",
+
       "prepTimeMin": 7,
       "cookTimeMin": 10,
 
@@ -199,6 +214,8 @@
       "title": "Nutty Date Energy Rocks",
       "description": " Nutty Date Energy Rocks are perfect for a quick, natural energy boost before workouts or during busy days. They also make a healthy, guilt-free snack that satisfies sweet cravings without refined sugar.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/Energie_Steine_aus_Datteln_und_N%C3%BCssen_1_lqm8ah.avif",
+      "dataKeywords": "date,oat,honey",
+
       "prepTimeMin": 13,
       "cookTimeMin": 0,
 
@@ -220,8 +237,10 @@
     {
       "id": "sweet-potato-bites-with-yougurt-dip",
       "title": "sweet Potato Bites With Yogurt Dip",
-      "description": "",
+      "description": "This is a very tasty snack. It can be taken as appetizer or just a quick snack.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416750/ChatGPT-Image-May-3_-2025_-09_25_52-PM-_1__teaw4q.avif",
+      "dataKeywords": "yogurt,cinamon,paprika,potatoes,Potato",
+
       "prepTimeMin": 12,
       "cookTimeMin": 20,
 
@@ -244,8 +263,10 @@
     {
       "id": "cheesy-ramen-nest",
       "title": "Cheesy Ramen Nests",
-      "description": " ",
+      "description": "Cheesy ramen nest is a perfect dish for breakfast or lunch with its sponge-like texture and flavour-rich taste. ",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416751/ChatGPT-Image-May-3_-2025_-09_31_03-PM-_1__iaetf4.avif",
+      "dataKeywords": "egg,eggs,noodles,cheese",
+
       "prepTimeMin": 3,
       "cookTimeMin": 12,
 
@@ -266,8 +287,10 @@
     {
       "id": "banana-oat-energy-bites",
       "title": "Banana Oat Energy Bites",
-      "description": "-",
+      "description": "Banana oat energy bites are quick no-bake snacks made from mashed bananas and oats that deliver steady energy. They’re perfect for school, workouts, or busy days when you need something healthy and satisfying.",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416739/ChatGPT-Image-May-3_-2025_-09_33_00-PM-_1__j7giel.avif",
+      "dataKeywords": "chocolate,butter,banana,oats,oat",
+
       "prepTimeMin": 6,
       "cookTimeMin": 0,
       "servings": 1,
@@ -289,6 +312,7 @@
       "title": "Zesty Cucumber Chips",
       "description": "…",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416739/ChatGPT-Image-May-3_-2025_-09_34_44-PM-_1__v8iram.avif",
+      "dataKeywords": "paprika,cucumber",
 
       "prepTimeMin": 6,
       "cookTimeMin": 60,
@@ -307,6 +331,7 @@
       "title": "Frozen Banana S`more Bites",
       "description": "…",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/ChatGPT_Image_May_16_2025_03_44_16_PM_1_kgvh5w.avif",
+      "dataKeywords": "banana, chocolate, marshmellows",
 
       "prepTimeMin": 12,
       "cookTimeMin": 0,
@@ -331,6 +356,7 @@
       "title": "Avocado Egg Toast Cups",
       "description": "…",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416736/Avocado_Egg_Toast_Cups_1_uvis8v.avif",
+      "dataKeywords": "bread,egg,eggs,avocado",
 
       "prepTimeMin": 7,
       "cookTimeMin": 15,
@@ -355,6 +381,7 @@
       "title": "Crispy Chickpea Snack",
       "description": "…",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416737/Crispy_Chickpea_snack_1_okfeab.avif",
+      "dataKeywords": "garlic,paprika,cheakpeas,cheakpea",
 
       "prepTimeMin": 6,
       "cookTimeMin": 30,
@@ -378,6 +405,7 @@
       "title": "Peanut Butter Apple Nachos",
       "description": "…",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755417445/IMG_20250806_150806_svoeqb_th0ev7.avif",
+      "dataKeywords": "pear,peanut butter,peanutbutter,apple",
 
       "prepTimeMin": 8,
       "cookTimeMin": 0,
@@ -402,6 +430,7 @@
       "title": "Mini Caprese Skewers",
       "description": "…",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416736/Mini_caprese_skewer_1_yiwcrc.avif",
+      "dataKeywords": "basil,mozzarella,tomatoes,tomatoe",
 
       "prepTimeMin": 10,
       "cookTimeMin": 0,
@@ -423,6 +452,7 @@
       "title": "Cheesy Mango Poppers",
       "description": "…",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416736/ChatGPT_Image_May_15_2025_03_18_28_PM_1_zeq5x4.avif",
+      "dataKeywords": "cheese,nachos,cornflakes,mango",
 
       "prepTimeMin": 16,
       "cookTimeMin": 0,
@@ -448,6 +478,7 @@
       "title": "Garri cookies",
       "description": "…",
       "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1756387907/ChatGPT_Image_Aug_28_2025_03_14_34_PM_11zon_l2hj8t.avif",
+      "dataKeywords": "garri, cookies,sugar",
 
       "prepTimeMin": 6,
       "cookTimeMin": 15,
@@ -466,27 +497,33 @@
         "Let them cool and enjoy!"
       ]
     },
-    {
-      "id": "rice-and-yougurt-bowl",
-      "title": "Rice & Yogurt Bowl",
-      "description": "…",
-      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto:eco/v1757086463/jnqjc66srjc0k2zadz1l_nsnwwo.avif",
+    
+{
+  "id": "rice-and-yogurt-bowl",
+  "title": "Rice & Yogurt Bowl",
+  "description": "A cool, creamy bowl of rice mixed with yogurt, cucumber, and mint — refreshing, light, and probiotic-rich.",
+  "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto:eco/v1757086463/jnqjc66srjc0k2zadz1l_nsnwwo.avif",
+  "dataKeywords": "rice,healthy,yogurt,mint,vegetables,cooling",
 
-      "prepTimeMin": 8,
-      "cookTimeMin": 0,
-      "servings": 1,
+  "prepTimeMin": 8,
+  "cookTimeMin": 0,
+  "servings": 1,
 
-      "ingredients": [
-        "1 cup cooked rice ",
-        "Cucumber",
-        "Mint and pinch of salt ",
-        "1/2 cup of plain yogurt"
-      ],
-      "steps": [
-        "Mix 1 cup cooled rice with plain yogurt.",
-        "Add chopped cucumber, mint, and a pinch of salt.",
-        "Light ,cooling and probiotic-rich."
-      ]
-    }
+  "ingredients": [
+    "1 cup cooked rice",
+    "1/2 cup plain yogurt",
+    "Chopped cucumber",
+    "Fresh mint",
+    "Pinch of salt"
+  ],
+
+  "steps": [
+    "Add cooked and cooled rice to a bowl.",
+    "Stir in plain yogurt until evenly coated.",
+    "Mix in chopped cucumber, mint, and a pinch of salt.",
+    "Serve chilled."
+  ]
+}
+
   ]
 }

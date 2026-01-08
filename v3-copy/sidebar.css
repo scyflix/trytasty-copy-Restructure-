@@ -66,14 +66,18 @@ body.lightMode #sidebar {
 }
 /* Menu Icon */
 .menu-icon {
-  width: 25px;
+  width: 1.8rem;
   height: 25px;
   margin: 10px 10px 10px 0;
   cursor: pointer;
 }
+.menu-icon:hover {
+opacity: 0.8;
+transform: translateY(-1px);
+}
 .menu-icon span {
   background: var(--color);
-  width: 1.8rem;
+  width: 100%;
   height: 0.2rem;
   display: block;
   margin: 4px 0;
