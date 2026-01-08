@@ -285,17 +285,69 @@
     },
 
     {
-      "id": "",
-      "title": "",
+      "id": "zesty-cucumber-chips",
+      "title": "Zesty Cucumber Chips",
       "description": "…",
-      "image": "…",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416739/ChatGPT-Image-May-3_-2025_-09_34_44-PM-_1__v8iram.avif",
 
-      "prepTimeMin": 0,
+      "prepTimeMin": 6,
+      "cookTimeMin": 60,
+      "servings": 2,
+
+      "ingredients": ["1 large cucumber", "Lemon juice", "Paprika", "Salt"],
+      "steps": [
+        "Slice cucumber thinly and lay on a baking sheet.",
+        "Drizzle with lemon juice and sprinkle paprika + salt.",
+        "Bake at 120°C(250°F) for 6o minutes until crisp."
+      ]
+    },
+
+    {
+      "id": "frozen-banana-s´more-bites",
+      "title": "Frozen Banana S`more Bites",
+      "description": "…",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416738/ChatGPT_Image_May_16_2025_03_44_16_PM_1_kgvh5w.avif",
+
+      "prepTimeMin": 12,
       "cookTimeMin": 0,
-      "servings": 0,
+      "servings": 2,
 
-      "ingredients": [],
-      "steps": []
+      "ingredients": [
+        "2 bananas",
+        "Melted dark chocolate",
+        "Crushed graham crackers",
+        "Mini marshmellows"
+      ],
+      "steps": [
+        "Cut bananas into thick slices.",
+        "Dip banana slices into chocolate.",
+        "Press into graham cracker crumbs and top with marshmellows.",
+        "Freeze until set."
+      ]
+    },
+
+    {
+      "id": "avocado-egg-toast-cups",
+      "title": "Avocado Egg Toast Cups",
+      "description": "…",
+      "image": "https://res.cloudinary.com/dc1bmavl5/image/upload/f_auto,q_auto/v1755416736/Avocado_Egg_Toast_Cups_1_uvis8v.avif",
+
+      "prepTimeMin": 7,
+      "cookTimeMin": 15,
+      "servings": 2,
+
+      "ingredients": [
+        "2 slices of bread",
+        "1 ripe Avocado",
+        "2 eggs",
+        "Salt and chili flakes"
+      ],
+      "steps": [
+        "Press bread slices into a greased muffin tin to form cups.",
+        "Crack an egg into each.",
+        "Bake at 180°C(360°F) for 15 minutes.",
+        "Top with mashed avocado and chili flakes."
+      ]
     }
   ]
 }
