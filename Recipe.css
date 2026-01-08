@@ -35,7 +35,7 @@ a.backBtn {
   border-radius: 8px;
   background: var(--btn-bg);
   padding: 6px;
-  color: var(--color);
+  color: beige;
   transition: opacity 0.5s ease;
   font-size: clamp(1.3rem, 1.5rem, 1.5rem);
 }
