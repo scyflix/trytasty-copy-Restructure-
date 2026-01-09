@@ -144,3 +144,6 @@ p.errorShow {
     transform: rotate(360deg);
   }
 }
+.auth-form input {
+  margin: 12px 0;
+}

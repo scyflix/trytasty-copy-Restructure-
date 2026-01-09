@@ -8,11 +8,11 @@ body.lightMode main {
   --popular-shadow: rgba(0, 0, 0, 0.08);
 
   --popular-heading: #e65100;
-  --popular-text: #333333;
+  --popular-text: #000000;
 
   --popular-divider: rgba(0, 0, 0, 0.1);
 
-  --popular-link: #ff8800b9;
+  --popular-link: #171717b9;
   --popular-link-hover: #e65100;
 
     --faq-bg: #ffffff;
