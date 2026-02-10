@@ -1,61 +1,49 @@
-# 🍽️ TryTasty
+🍽️ TryTasty — Restructure Workspace
+This repository is a development and restructuring copy of the TryTasty project.
+It serves as a dedicated workspace for reorganizing the codebase, refining the project structure, and testing improvements without affecting the main TryTasty repositories or live deployments.
 
-**TryTasty** is a creative recipe platform sharing fun and tasty snack ideas using simple, easy-to-find ingredients — with a special love for plantain!
+TryTasty itself is a creative recipe platform built around simple, fun snack ideas — with a special love for plantain — and is gradually evolving into a social, community‑driven food‑sharing experience.
 
-Originally launched as a student learning project, **TryTasty** is now evolving into a **social food-sharing platform** where users can create accounts, post their own recipes, like and comment on others’ creations, and discover unique snacks from around the world.
+This workspace is part of Scybud, a student‑led creative brand exploring tech, science, and design.
 
-This project is part of **Scybud**, a student-led creative brand exploring tech, science, and design.
+🚧 Purpose of This Repo
+- Reorganize and clean up project structure
+- Test new UI layouts and components
+- Refactor JavaScript logic and improve maintainability
+- Experiment with navigation and UX changes
+- Prepare enhancements before merging into the main project
 
----
+This repo is not the production version of TryTasty.
 
-## 🚀 Current Features
+🚀 Current TryTasty Features (from main project)
+-🍌 Simple, quick snack recipes
+-📱 Responsive, mobile‑friendly design
 
-- 🍌 Easy and quick snack recipes
-- 📱 Mobile-friendly, responsive design
-- 🎯 Beginner-friendly foundation for future expansion
-- Basic recipe bot
-- Save recipes to favorite list
-- 👥 User accounts
+-⭐ Save recipes to favorites
+-🤖 Basic recipe bot
+-👥 Early‑stage user accounts
 
----
+🔮 Planned Features (main project roadmap)
+-User profiles
+-Recipe uploads with images
+-Likes, comments, and social interactions
 
-## 🔮 Later features
+🌐 Live Versions
+👉 TryTasty v1: https://trytasty.de/v1/
+👉 TryTasty v2: https://tytasty.de/v2/
+👉 TryTasty v3(latest version): https://trytasty.de/
 
-- 👥 User profiles
-- 📝 Recipe uploads with images
-- ❤️ Likes, comments, and social interaction
-
----
-
-## 🌐 Live Site
-
--👉 [Visit TryTasty v1](https://trytasty.de/v1/)
--👉 [Visit TryTasty v2](https://tytasty.de/)
-
----
-
-## 🛠️ Built With
-
+🛠️ Built With
 - HTML
 - CSS
 - JavaScript
 - Firebase
 
----
+📜 License
+© 2025 Scybud. All Rights Reserved.  
+All code, designs, and written content in this repository and the TryTasty project are proprietary.
 
-## 📜 License
+You may not copy, reproduce, distribute, or modify any part of this project without explicit written permission from Scybud.
 
-© **2025 Scybud. All Rights Reserved.**  
-This project, including all code, designs, and written content, is proprietary and protected under copyright law.
-
-You are **not permitted** to copy, reproduce, distribute, or modify any part of this project without explicit written permission from **Scybud**.  
-Public use of the **TryTasty** platform is limited to its official website and applications.
-
-For licensing or partnership inquiries, contact:  
-📧 **scybudtech@gmail.com**
-
----
-
-## 🙌 Credits
-
-Created with passion under the **Scybud** brand by Abdulroqib Oladipo — driven by creativity, curiosity, and a love for good food.
+For licensing or partnership inquiries:
+📧 scybudtech@gmail.com
